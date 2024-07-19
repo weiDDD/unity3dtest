@@ -1,5 +1,11 @@
 {
   "dependencies": {
+    "com.mytest.test1": {
+      "version": "file:E:/wss_project/unityTestPackage/unityTestPackage",
+      "depth": 0,
+      "source": "local",
+      "dependencies": {}
+    },
     "com.unity.collab-proxy": {
       "version": "1.15.16",
       "depth": 0,

@@ -5,23 +5,84 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638355352142748767
-    m_Hash: 2524645620
+      ticks: 638477216831950101
+    m_Hash: 2032152219
   m_LockFileStatus:
     m_FilePath: E:/wss_project/unity3dtest/unity3dtest/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638355353112872222
-    m_Hash: 3265043596
+      ticks: 638477217324048385
+    m_Hash: 1734940031
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
-  m_LocalFileStatus: []
+  m_LocalFileStatus:
+  - m_FilePath: E:\wss_project\unityTestPackage\unityTestPackage/package.json
+    m_PathExists: 1
+    m_ContentTrackingEnabled: 1
+    m_ModificationDate:
+      serializedVersion: 2
+      ticks: 638442671698095864
+    m_Hash: 3223085631
+  - m_FilePath: E:\wss_project\unityTestPackage\unityTestPackage
+    m_PathExists: 1
+    m_ContentTrackingEnabled: 1
+    m_ModificationDate:
+      serializedVersion: 2
+      ticks: 0
+    m_Hash: 0
 m_ProjectPath: E:/wss_project/unity3dtest/unity3dtest/Packages
 m_EditorVersion: 2021.3.2f1c1 (7ac240095d88)
 m_ResolvedPackages:
+- packageId: com.mytest.test1@file:E:\wss_project\unityTestPackage\unityTestPackage
+  testable: 0
+  isDirectDependency: 1
+  version: 1.0.0
+  source: 4
+  resolvedPath: E:\wss_project\unityTestPackage\unityTestPackage
+  assetPath: Packages/com.mytest.test1
+  name: com.mytest.test1
+  displayName: MyTest
+  author:
+    name: weiss
+    email: 1139454623@qq.com
+    url: https://www.unity3d.com
+  category: 
+  type: 
+  description: this is a test Package
+  status: 4
+  errors: []
+  versions:
+    all: []
+    compatible: []
+    verified: 
+  dependencies: []
+  resolvedDependencies: []
+  keywords:
+  - test
+  - mytest
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.cn
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+  hideInEditor: 1
+  isAssetStorePackage: 0
+  datePublishedTicks: 0
+  documentationUrl: 
+  hasRepository: 0
+  repository:
+    type: 
+    url: 
+    revision: 
+    path: 
+  unityLifecycle:
+    version: 
+    nextVersion: 
 - packageId: com.unity.collab-proxy@1.15.16
   testable: 0
   isDirectDependency: 1
