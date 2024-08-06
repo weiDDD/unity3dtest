@@ -9,7 +9,7 @@ using System;
 // 声明一个自定义特性类
 [AttributeUsage(
     AttributeTargets.Class|AttributeTargets.Constructor|AttributeTargets.Field|AttributeTargets.Method,
-    AllowMultiple = true,
+    AllowMultiple = true, // 是否可以多个特性修饰同一个对象
     Inherited = false
     )]
 public class DebugInfo : System.Attribute {

@@ -1,15 +1,54 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 11.00
-# Visual Studio 2010
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly-CSharp.csproj", "{9483131f-79c5-d611-c003-7e0152366579}"
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "main", "main.csproj", "{9D703CB2-7DCA-0759-C2D2-78D42A15F77E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "test1", "test1.csproj", "{D500AC9F-C15E-A2B9-4A55-14F88B8E8DEC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "scriptUnity", "scriptUnity.csproj", "{55796CCF-D20F-AA97-A359-BA6A5D29392E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "test2", "test2.csproj", "{AA595E6C-4D78-FE65-82F6-54F41E7E762F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "testEditor3", "testEditor3.csproj", "{569D9E9C-93FF-E5B0-CDC9-17EC5E2A502E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp-Editor", "Assembly-CSharp-Editor.csproj", "{0DDB9299-9076-FB1B-529D-2F43B8C8C06A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests", "Tests.csproj", "{60E7BA40-9665-BF81-71DB-1F2A37EBFB83}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{9483131f-79c5-d611-c003-7e0152366579}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{9483131f-79c5-d611-c003-7e0152366579}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9D703CB2-7DCA-0759-C2D2-78D42A15F77E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9D703CB2-7DCA-0759-C2D2-78D42A15F77E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9D703CB2-7DCA-0759-C2D2-78D42A15F77E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9D703CB2-7DCA-0759-C2D2-78D42A15F77E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D500AC9F-C15E-A2B9-4A55-14F88B8E8DEC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D500AC9F-C15E-A2B9-4A55-14F88B8E8DEC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D500AC9F-C15E-A2B9-4A55-14F88B8E8DEC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D500AC9F-C15E-A2B9-4A55-14F88B8E8DEC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{55796CCF-D20F-AA97-A359-BA6A5D29392E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{55796CCF-D20F-AA97-A359-BA6A5D29392E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{55796CCF-D20F-AA97-A359-BA6A5D29392E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{55796CCF-D20F-AA97-A359-BA6A5D29392E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AA595E6C-4D78-FE65-82F6-54F41E7E762F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AA595E6C-4D78-FE65-82F6-54F41E7E762F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AA595E6C-4D78-FE65-82F6-54F41E7E762F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AA595E6C-4D78-FE65-82F6-54F41E7E762F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{569D9E9C-93FF-E5B0-CDC9-17EC5E2A502E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{569D9E9C-93FF-E5B0-CDC9-17EC5E2A502E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{569D9E9C-93FF-E5B0-CDC9-17EC5E2A502E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{569D9E9C-93FF-E5B0-CDC9-17EC5E2A502E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0DDB9299-9076-FB1B-529D-2F43B8C8C06A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0DDB9299-9076-FB1B-529D-2F43B8C8C06A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0DDB9299-9076-FB1B-529D-2F43B8C8C06A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0DDB9299-9076-FB1B-529D-2F43B8C8C06A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{60E7BA40-9665-BF81-71DB-1F2A37EBFB83}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{60E7BA40-9665-BF81-71DB-1F2A37EBFB83}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{60E7BA40-9665-BF81-71DB-1F2A37EBFB83}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{60E7BA40-9665-BF81-71DB-1F2A37EBFB83}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

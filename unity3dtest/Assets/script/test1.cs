@@ -7,10 +7,10 @@ public class test1 : MonoBehaviour
     public Transform prefab;
     public int gridResolution = 10;
     Transform[] grid;
-
+    #region  ≤‚ ‘
     byte testByte = 0;
     char testStr = '0';
-
+    #endregion
     // Start is called before the first frame update
     void Start()
     {

@@ -2,7 +2,8 @@
     "name": "main",
     "rootNamespace": "",
     "references": [
-        "GUID:17297aa5d62087649a14042e938b1523"
+        "GUID:17297aa5d62087649a14042e938b1523",
+        "GUID:59de60d5931d703459c35b912e6a2b89"
     ],
     "includePlatforms": [],
     "excludePlatforms": [],

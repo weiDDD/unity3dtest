@@ -7,6 +7,7 @@ public class testProperty : MonoBehaviour
     // 定义两个私有域
     private string code;
     private string name;
+
     //private int age;
 
     // 定义名为Code的属性
