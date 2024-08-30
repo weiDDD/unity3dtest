@@ -63,6 +63,7 @@
     <Compile Include="Assets\script\testReflection.cs" />
     <Compile Include="Assets\script\testFunc.cs" />
     <Compile Include="Assets\script\testAttribute.cs" />
+    <Compile Include="Assets\script\testCShipBase.cs" />
     <Compile Include="Assets\script\test1.cs" />
     <Compile Include="Assets\script\IEnumerator\testCoroutine.cs" />
     <Compile Include="Assets\script\testDelefate2.cs" />

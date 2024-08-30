@@ -25,7 +25,8 @@ Shader "Unlit/test4"
 
         Cull Off        // 关闭裁剪，正面反面都会渲染
         Lighting Off    // 关闭光照
-        ZWrite Off      // 关闭深度缓存
+        ZWrite On      // 关闭深度缓存
+        ZTest LEqual
         // 混合模式 ,  Blend SF DF , 分别设置源因子 SF (Sr,Sg,Sb,Sa) 和 目标因子 DF (Dr,Dg,Db,Da) ；源颜色指当前shader的片段色 (Rs,Gs,Bs,As) ，目标色指屏幕已有色 (Rd,Gd,Bd,Ad)
         // 最终色 = （ Rs*Sr+Rd*Dr , Gs*Sg+Gd*Dg , Bs*Sb+Bd*Db , As*Sa+Ad*Da ） 也就是rgba分量乘以各自的因子后相加
         // **因子
